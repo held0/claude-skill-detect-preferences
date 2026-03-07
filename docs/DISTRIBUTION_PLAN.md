@@ -15,19 +15,17 @@ Maximale Verbreitung des Skills in der Claude Code Community, sodass möglichst 
 - [x] SKILL.md im korrekten Format
 - [x] LICENSE (MIT)
 - [x] package.json mit Keywords
-- [ ] GitHub Topics setzen: `claude-code`, `claude-skill`, `timezone`, `locale`, `developer-tools`
-- [ ] GitHub Description: "Auto-detect timezone, locale & language for Claude Code"
+- [x] GitHub Topics setzen: `claude-code`, `claude-skill`, `timezone`, `locale`, `developer-tools`
+- [x] GitHub Description: "Auto-detect timezone, locale & language for Claude Code"
 
 ### 1.2 Skills.sh Marketplace
 
-- [ ] Skill auf skills.sh listen lassen
-- [ ] Sicherstellen dass `npx skills add held0/claude-skill-detect-preferences` funktioniert
-- [ ] Skill-Seite auf skills.sh verifizieren
+- [x] Sicherstellen dass `npx skills add held0/claude-skill-detect-preferences` funktioniert
+- [x] Skill ist direkt installierbar (skills.sh indexiert von GitHub automatisch)
 
 ### 1.3 SkillHub.club
 
-- [ ] Skill auf skillhub.club einreichen
-- [ ] Beschreibung und Tags optimieren
+- [x] SkillHub indexiert automatisch von GitHub — keine manuelle Einreichung nötig
 
 ---
 
@@ -83,15 +81,15 @@ Maximale Verbreitung des Skills in der Claude Code Community, sodass möglichst 
 
 ### 3.1 Awesome Lists
 
-- [ ] PR an `ComposioHQ/awesome-claude-skills` — größte kuratierte Liste
+- [x] PR an `ComposioHQ/awesome-claude-skills` — PR #333 erstellt
+- [x] PR an `VoltAgent/awesome-agent-skills` — PR #183 erstellt
 - [ ] PR an `mhattingpete/claude-skills-marketplace`
-- [ ] Eigene awesome-list suchen/erstellen
 
 ### 3.2 Skill Directories
 
-- [ ] LobeHub Skills Marketplace einreichen
-- [ ] skills.sh Listing optimieren
-- [ ] SkillHub.club Listing optimieren
+- [x] skills.sh — funktioniert automatisch via GitHub
+- [x] SkillHub.club — indexiert automatisch von GitHub
+- [ ] LobeHub Skills Marketplace einreichen (lobehub.com/skills)
 
 ### 3.3 Blogging & SEO
 
