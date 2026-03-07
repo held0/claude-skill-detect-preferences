@@ -83,13 +83,19 @@ Maximale Verbreitung des Skills in der Claude Code Community, sodass möglichst 
 
 - [x] PR an `ComposioHQ/awesome-claude-skills` — PR #333 erstellt
 - [x] PR an `VoltAgent/awesome-agent-skills` — PR #183 erstellt
+- [x] PR an `travisvn/awesome-claude-skills` — eingereicht via Agent
+- [x] PR an `hesreallyhim/awesome-claude-code` — eingereicht via Agent
+- [x] PR an `karanb192/awesome-claude-skills` — eingereicht via Agent
+- [ ] PR an `rohitg00/awesome-claude-code-toolkit`
 - [ ] PR an `mhattingpete/claude-skills-marketplace`
 
 ### 3.2 Skill Directories
 
 - [x] skills.sh — funktioniert automatisch via GitHub
-- [x] SkillHub.club — indexiert automatisch von GitHub
+- [x] SkillHub.club — indexiert automatisch von GitHub (7.000+ Skills)
+- [x] SkillsMP (skillsmp.com) — indexiert automatisch (66.500+ Skills)
 - [ ] LobeHub Skills Marketplace einreichen (lobehub.com/skills)
+- [ ] claudemarketplaces.com — Plugin-Marketplace-Verzeichnis
 
 ### 3.3 Blogging & SEO
 
