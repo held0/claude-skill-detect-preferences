@@ -1,0 +1,26 @@
+{
+  "name": "detect-user-preferences",
+  "version": "1.0.0",
+  "description": "Claude Code skill that auto-detects and remembers user system preferences (timezone, locale, language, date format, OS, shell)",
+  "keywords": [
+    "claude-code",
+    "claude-skill",
+    "timezone",
+    "locale",
+    "preferences",
+    "auto-detect",
+    "user-preferences",
+    "i18n",
+    "l10n"
+  ],
+  "author": "resistance",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/held0/claude-skill-detect-preferences.git"
+  },
+  "homepage": "https://github.com/held0/claude-skill-detect-preferences#readme",
+  "bugs": {
+    "url": "https://github.com/held0/claude-skill-detect-preferences/issues"
+  }
+}
