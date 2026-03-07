@@ -122,6 +122,18 @@ Or trigger a fresh detection:
 User: Bitte erkenne meine Systemeinstellungen neu.
 ```
 
+## Why This Skill?
+
+This addresses multiple open Claude Code issues requesting timezone and i18n support:
+
+- [#7233](https://github.com/anthropics/claude-code/issues/7233) — Add i18n support, auto-detect LANG/LC_ALL
+- [#4514](https://github.com/anthropics/claude-code/issues/4514) — Incorrect date display in non-UTC timezones
+- [#2200](https://github.com/anthropics/claude-code/issues/2200) — /status shows reset time without timezone
+
+No other skill auto-detects and persists system preferences. Existing timezone skills ([timezone-tools](https://github.com/henkisdabro/wookstar-claude-code-plugins), [time-helper](https://github.com/Interstellar-code/claud-skills)) are conversion utilities — they answer "what time is it in Tokyo?" but don't contextualize Claude's responses to your local timezone.
+
+See [docs/COMPETITIVE_ANALYSIS.md](docs/COMPETITIVE_ANALYSIS.md) for the full comparison.
+
 ## Compatibility
 
 - **Claude Code** (CLI) — full support
