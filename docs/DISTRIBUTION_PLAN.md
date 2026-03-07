@@ -83,9 +83,9 @@ Maximale Verbreitung des Skills in der Claude Code Community, sodass möglichst 
 
 - [x] PR an `ComposioHQ/awesome-claude-skills` — PR #333 erstellt
 - [x] PR an `VoltAgent/awesome-agent-skills` — PR #183 erstellt
-- [x] PR an `travisvn/awesome-claude-skills` — eingereicht via Agent
-- [x] PR an `hesreallyhim/awesome-claude-code` — eingereicht via Agent
-- [x] PR an `karanb192/awesome-claude-skills` — eingereicht via Agent
+- [x] PR an `travisvn/awesome-claude-skills` — [PR #229](https://github.com/travisvn/awesome-claude-skills/pull/229)
+- [x] Issue an `hesreallyhim/awesome-claude-code` — [Issue #929](https://github.com/hesreallyhim/awesome-claude-code/issues/929) (PRs nicht erlaubt, Web-Formular empfohlen)
+- [x] PR an `karanb192/awesome-claude-skills` — [PR #26](https://github.com/karanb192/awesome-claude-skills/pull/26)
 - [ ] PR an `rohitg00/awesome-claude-code-toolkit`
 - [ ] PR an `mhattingpete/claude-skills-marketplace`
 
