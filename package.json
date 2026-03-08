@@ -13,7 +13,10 @@
     "i18n",
     "l10n"
   ],
-  "author": "resistance",
+  "author": {
+    "name": "Niklas Held",
+    "url": "https://held0.com"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
