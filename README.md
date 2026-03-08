@@ -159,6 +159,10 @@ cp -r . ~/.claude/skills/detect-user-preferences/
 claude
 ```
 
+## Author
+
+**Niklas Held** — [held0.com](https://held0.com) · [GitHub](https://github.com/held0)
+
 ## License
 
 MIT — see [LICENSE](LICENSE) for details.
