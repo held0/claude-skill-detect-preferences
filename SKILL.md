@@ -69,10 +69,11 @@ Write detected preferences to the project's `MEMORY.md` (or global `~/.claude/ME
 ## Rules
 
 1. **Timezone is king**: Always convert any UTC/server times to the user's local timezone before displaying
-2. **Language from conversation, not locale**: The user's spoken language may differ from their OS locale (e.g., German speaker with en_US locale)
-3. **Don't re-detect if already saved**: Check MEMORY.md first. Only re-detect if user asks or preferences are missing
-4. **Update, don't duplicate**: If preferences exist, update the existing section rather than adding a new one
-5. **Show timezone in output**: When displaying times, always show both local time and offset: "15:35 (UTC+7)"
+2. **NEVER guess the current time**: Always run `date` to get the actual time. LLMs cannot know the current time — they will hallucinate. This is non-negotiable.
+3. **Language from conversation, not locale**: The user's spoken language may differ from their OS locale (e.g., German speaker with en_US locale)
+4. **Don't re-detect if already saved**: Check MEMORY.md first. Only re-detect if user asks or preferences are missing
+5. **Update, don't duplicate**: If preferences exist, update the existing section rather than adding a new one
+6. **Show timezone in output**: When displaying times, always show both local time and offset: "15:35 (UTC+7)"
 
 ## Applying Preferences
 
@@ -86,6 +87,7 @@ Once saved, in every conversation:
 
 | Mistake | Fix |
 |---------|-----|
+| Guessing the current time | ALWAYS run `date` — LLMs hallucinate times |
 | Showing UTC times | Convert to user's timezone before displaying |
 | Assuming locale = language | Check conversation language separately |
 | Re-detecting every session | Read MEMORY.md first, detect only if missing |
